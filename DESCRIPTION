@@ -1,0 +1,15 @@
+Package: read.csv.sql
+Type: Package
+Title: the read.csv.sql function from sqldf, minus the Tcl/tk dependency
+Version: 0.99.0
+Date: 2014-05-12
+Author: G. Grothendieck <ggrothendieck@gmail.com>
+Imports:
+    proto,
+    gsubfn,
+    RSQLite.extfuns
+Description: This is seriously just the read.csv.sql function from the sqldf
+    package except it doesn't let you use Tcl/tk, because that dependency is
+    pretty slow.
+License: GPL-2
+URL: https://github.com/alyssafrazee/read.csv.sql
